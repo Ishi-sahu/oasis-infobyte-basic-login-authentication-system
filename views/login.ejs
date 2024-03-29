@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+  
+    <style>.box{
+        width:300px;
+        height: 300px;
+        margin-left:3em ;
+           margin-top:3em ;
+        border-radius: 15%;
+        box-shadow: 10px 10px black ;
+        align-items: center;
+        background-color: #C7EFCF;
+    }
+    body{
+        background-color:#D6D1B1;
+        text-align: center;
+    }
+    button{
+        border-radius: 15%;
+        background-color: black;
+        color:white;
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+    </div>
+</body>
+</html>
